@@ -71,7 +71,9 @@ body {
 }
 
 .card h2 {
-
+  text-align: center;
+  color: #f9ffee;
+  text-shadow: 2px 2px 5px black;
 }
 
 .card p {
@@ -80,9 +82,26 @@ body {
   text-shadow: 2px 2px 5px black;
 }
 
-.card ul {
+.card ul, ol {
   display: table;
   margin: 0 auto;
   color: #f9ffee;
   text-shadow: 2px 2px 5px black;
+}
+
+.about {
+  float: right;
+}
+
+.about p {
+  max-width: 400px;
+  text-align: justify;
+}
+
+.hobbies {
+  float: left;
+}
+
+.hobbies ol {
+  margin-bottom: 10px;
 }
