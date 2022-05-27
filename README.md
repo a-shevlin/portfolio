@@ -6,9 +6,9 @@
 
 ## Technologies Used
 
-*HTML
-*CSS
-*BOOTSTRAP
+* HTML
+* CSS
+* BOOTSTRAP
 
 ## Description
 
