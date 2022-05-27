@@ -1,5 +1,6 @@
 body {
   background-color: #1d2118;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .jumbotron {
@@ -62,21 +63,26 @@ body {
 .card {
   margin: auto;
   margin-bottom: 25px;
-  border-width: 10px;
+  border-width: 5px;
   border-color: #171116;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   background-color: #21181f;
-  
+}
+
+.card h2 {
+
 }
 
 .card p {
   text-align: center;
   color: #f9ffee;
+  text-shadow: 2px 2px 5px black;
 }
 
 .card ul {
   display: table;
   margin: 0 auto;
   color: #f9ffee;
+  text-shadow: 2px 2px 5px black;
 }
