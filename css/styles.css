@@ -8,36 +8,60 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #1d2118;
+  width: auto;
+  height: 400px;
 }
 
-.jumbotron img {
+.col-3 {
   float: left;
-  padding: 0 20px 20px 0;
-  width: 20%;
+  padding: 10px;
 }
 
-.jumbotron h1, h3, p {
+.left img {
+  margin-left: 100px;
+  margin-top: 25px;
+  width: 120%;
+  filter:drop-shadow(5px 5px 10px black)
+}
+
+.text {
   position: relative; 
-  left: 350px;
   color: #97a9b8;
-  text-shadow: 2px 2px black;
-  padding-left: 20px
+  text-shadow: 2px 2px 5px black;
+  left: 200px
 }
 
-.jumbotron p {
-  left: 280px;
-  top: 10px;
-  width: 400px;
-  direction: rtl;
+.text h3 {
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.text h1 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.transparent {
+  width: 350px;
+  background-color: rgba(44, 53, 38, 0.8);
+}
+  
+.transparent p {
+  margin-left: 0px;
+  margin-top: 15px;
+  width: 350px;
   text-align: justify;
+  opacity: 100%;
 }
 
 .row h2 {
   text-align: center;
 }
 
-.col-4,.col-6 {
-  border: solid lightsteelblue;
+.col-md-4,.col-md-6 {
+  border: solid #3a4532;
   border-width: 3px;
-  background-color: lightslategray;
+  background-color: #3a4532;
 }
+
