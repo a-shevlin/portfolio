@@ -59,9 +59,24 @@ body {
   text-align: center;
 }
 
-.col-md-4,.col-md-6 {
-  border: solid #3a4532;
-  border-width: 3px;
-  background-color: #3a4532;
+.card {
+  margin: auto;
+  margin-bottom: 25px;
+  border-width: 10px;
+  border-color: #171116;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #21181f;
+  
 }
 
+.card p {
+  text-align: center;
+  color: #f9ffee;
+}
+
+.card ul {
+  display: table;
+  margin: 0 auto;
+  color: #f9ffee;
+}
